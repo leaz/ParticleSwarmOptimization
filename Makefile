@@ -1,6 +1,6 @@
 # Makefile to compile example program 'PSO'
 
-F90 = gfortran-mp-4.7
+F90 = gfortran
 #F90FLAGS = -cpp -O3
 F90FLAGS = -cpp -O3 -fbounds-check
 #F90FLAGS = -cpp -O3 -g -fopenmp
