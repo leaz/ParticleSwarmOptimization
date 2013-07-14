@@ -54,7 +54,7 @@
     phir = 1.9_wp
     phiv = 0.2_wp
     ! Number of optimizers (bugs in the swarm)
-    bugs = 20
+    bugs = 100
 
     ! dim : dimension of the parameter vector
     dim = size(params,1)
